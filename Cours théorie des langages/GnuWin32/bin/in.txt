@@ -1,0 +1,8 @@
+//test comment
+public static void main(){
+/*commentaire*/
+hello
+/*debut de commentaire
+fin de commentaire*/
+}
+//dernier commentaire
