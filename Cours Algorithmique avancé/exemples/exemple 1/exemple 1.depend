@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1479981323 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\exemple 1\intarray.c
+	<stdlib.h>
+	"IntArray.h"
+
+1466669664 c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\exemple 1\intarray.h
+
+1481888632 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\exemple 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayOperations.h"
+	"IntArray.h"
+
+1481885034 c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\exemple 1\arrayoperations.h
+	"IntArray.h"
+
+1481893667 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\exemple 1\arrayoperations.c
+	"ArrayOperations.h"
+	<stdio.h>
+

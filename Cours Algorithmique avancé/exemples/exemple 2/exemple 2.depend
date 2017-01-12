@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1484159838 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\exemple 2\main.c
+	<stdio.h>
+	<stdlib.h>
+

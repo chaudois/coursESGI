@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1484222123 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\linkedlist.c
+	"LinkedList.h"
+	<stdlib.h>
+
+1468065276 c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\linkedlist.h
+
+1481893667 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\arrayoperations.c
+	"ArrayOperations.h"
+	<stdio.h>
+
+1484220502 c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\arrayoperations.h
+	"IntArray.h"
+
+1466669664 c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\intarray.h
+
+1479981323 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\intarray.c
+	<stdlib.h>
+	"IntArray.h"
+
+1484222046 source:c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"IntArray.h"
+	"ArrayOperations.h"
+	"LinkedList.h"
+	"LinkedListOperations.h"
+
+1460623934 c:\users\damie\documents\cours esgi\cours algorithmique avancé\exemples\liste _chainee\linkedlistoperations.h
+	"LinkedList.h"
+	"IntArray.h"
+

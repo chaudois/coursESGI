@@ -1,0 +1,27 @@
+Projet UML :
+
+Acteurs :
+	- Clients
+	- Fournisseurs/Partenaires
+	- Services Stock (entrées et sorties des produits neufs ou usagés)
+	- Services Commercial (Recherche de nouveaux clients, contrats de vente ou de souscription de services)
+	- Services Achat (Achat des matériaux et contrats partenaires)
+	- Service Comptabilité/Finance (Gestion des transactions de l’ensemble des sites)
+	- Service Recyclage
+	- Service Juridique
+	- Service R&D
+	
+	
+	
+Packages :
+- Authentification
+- Gestion des Commandes :
+	- Commandes Fournisseurs
+	- Commandes Client
+- Gestion des Stocks :
+	- Entrée/Sortie des Produits
+	- Entrée/Sortie des Produits Recyclés
+	- Entrée/Sortie des Produits Personnalisés
+- Gestion des Clients/Fournisseurs/Partenaires
+- Poster un avis (avis client, souhaits, constats, ...)
+- R&D
