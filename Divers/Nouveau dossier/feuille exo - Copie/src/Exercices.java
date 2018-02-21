@@ -2,10 +2,17 @@
 import java.io.File;
 import java.util.*;
 import java.lang.String;
-import
+
 public class Exercices{
+    private int variableBidon1;
+    private char variableBidon2;
+    public Exercices(){
+        variableBidon1=5;
+        variableBidon2='c';
+    }
     public static void test(String[] args){
         try{
+
             //essaye de récuperer les parametres de base. en cas d'echec, stop le programme
             String alphabet=args[0];
             String mot=args[1];
@@ -42,6 +49,7 @@ public class Exercices{
         finally{
             System.out.println("fermeture du programme");
         }
+
     }
     public static double addValueSafely(String[] tabValue)throws NumberFormatException {
         int cpt=0;
@@ -156,9 +164,17 @@ public class Exercices{
     }
 
 
+    public  Object clone() throws CloneNotSupportedException{
+        Exercices objet = new Exercices();
+        return objet;
+    }
     public static void main(String[] args){
 
-        test(args);
+        De monDe=new De();
+        monDe.printMultipleRoll(25);
+
     }
 
 }
+
+

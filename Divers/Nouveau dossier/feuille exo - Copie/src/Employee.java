@@ -26,7 +26,7 @@ public class Employee {
         salary = _salary;
     }
     public  Employee() {
-        name="Default"
+        name="Default";
         salary=1400;
     }
     Employee e= new Employee();

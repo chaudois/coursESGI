@@ -1,0 +1,10 @@
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\bin\Release\netstandard2.0\BLLTPExpaceo.deps.json
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\bin\Release\netstandard2.0\BLLTPExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\bin\Release\netstandard2.0\BLLTPExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\obj\Release\netstandard2.0\BLLTPExpaceo.csprojResolveAssemblyReference.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\obj\Release\netstandard2.0\BLLTPExpaceo.csproj.CoreCompileInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\obj\Release\netstandard2.0\BLLTPExpaceo.AssemblyInfoInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\obj\Release\netstandard2.0\BLLTPExpaceo.AssemblyInfo.cs
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\obj\Release\netstandard2.0\BLLTPExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\obj\Release\netstandard2.0\BLLTPExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\bin\Release\netstandard2.0\DALtpExpaceo.dll

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TPTest</string>
+    <string name="helpFourth" >https://en.wikipedia.org/w/api.php?format=json&amp;action=query&amp;prop=extracts&amp;exintro=&amp;explaintext=&amp;titles=2048_(video_game)</string>
+
+</resources>

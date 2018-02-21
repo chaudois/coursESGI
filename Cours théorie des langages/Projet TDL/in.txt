@@ -1,0 +1,17 @@
+un=1;
+deux=2;
+cinq=5;
+
+#for(un<cinq;un=un+1;){
+	print un;
+}
+
+if(un==cinq){
+	print deux;
+}
+
+nomDeFonction(un,deux){
+	cinq=cinq+1;
+}
+nomDeFonction(un,deux);
+print cinq;

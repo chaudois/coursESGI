@@ -12,30 +12,34 @@
 LinkedList *newLinkedList() {
   LinkedList *list = malloc(sizeof(LinkedList));
   list->size = 0;
+  list->first=NULL;
+  list->last=NULL;
   return list;
 }
-
-Node *newNode(int value) {
-  Node *node = malloc(sizeof(Node));
-  node->value = value;
-  return node;
+Variable *newVariable(int value, char* name) {
+  Variable *var = malloc(sizeof(Variable));
+  var->value = value;
+  var->name  =name;
+  var->next = NULL;
+  return var;
 }
 /**
  Returns 0 if succeded, -1 for an error
  **/
-int linked_list_insert_at_beginning(LinkedList* list, int value){
+void linked_list_insert_variable_at_beginning(LinkedList* list, double value,char* name){
     if (list == NULL){
         return -1;
     }
-    Node *newFirstNode = newNode(value);
-    Node *oldFirstNode = list->first;
-    newFirstNode->next = oldFirstNode;
-    list->first = newFirstNode;
-    if (oldFirstNode == NULL){
-        list->last = newFirstNode;
+    
+    Variable *oldFirstVariable = list->first;
+    Variable newFirstVariable=newVariable(value,name);
+    
+    newFirstVariable->next = oldFirstVariable;
+    list->first = newFirstVariable;
+    if (oldFirstVariable == NULL){
+        list->last = newFirstVariable;
     }
     list->size += 1;
-    return 0;
 }
 int linked_list_insert_at_end(LinkedList* list, int value){
     if(list == NULL){
@@ -75,5 +79,55 @@ void linked_list_print(LinkedList* list){
         printf("[%d] = %d\n",i,newNode->value);
         newNode=newNode->next;
         i++;
-    }while(newNode->next!=NULL);
+    }while(newNode!=NULL);
 }
+int linked_list_remove_occurence_stop_at_first(LinkedList* list, int value, unsigned short stopAtFirst){
+    Node* _node=list->first;
+    Node *previousNode=NULL;
+    while(_node!=NULL){
+        if(_node->value==value && previousNode==NULL){// on a trouvé le bon node mais c'est le premier de la liste
+            list->first=_node->next;
+            Node *tmp=_node;
+            _node=_node->next;
+            free(tmp);
+            if(stopAtFirst==1){
+                return 1;
+            }
+        }else if (_node->value==value &&_node==list->last){
+            list->last=previousNode;
+            previousNode->next=NULL;
+            free(_node);
+            list->size--;
+            return 1;
+        }else if(_node->value==value){//on a trouvé le node
+            previousNode->next=_node->next;
+             Node *tmp=_node;
+            _node=_node->next;
+            free(tmp);
+            if(stopAtFirst==1){
+                return 1;
+            }
+        }else{//on as pas trouvé le node, on avance
+            previousNode=_node;
+            _node=_node->next;
+        }
+    }
+    return 0;
+}
+void linked_list_reverse(LinkedList *list){
+    Node *begin = list->first;
+    Node *newBegin = NULL;
+    while(begin!=NULL){
+        Node *_next=begin->next;
+        begin->next=newBegin;
+        newBegin=begin;
+        begin=_next;
+    }
+    list->first=newBegin;
+}
+short linked_list_contains_loop(Node *first){
+
+
+    return 0;
+}
+

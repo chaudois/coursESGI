@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DALtpExpaceo", "DALtpExpaceo\DALtpExpaceo.csproj", "{CC676B88-E1AC-4255-AFC0-38E087052C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDALtpExpaceo", "TestDALtpExpaceo\TestDALtpExpaceo.csproj", "{8C6A2C52-4238-407D-8074-183BFA123500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{9FB583C4-F1B1-429D-A540-3F6DEC4FFED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{22C0D011-BDF9-4D24-B84F-B68448DD6CF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLLTPExpaceo", "BLLTPExpaceo\BLLTPExpaceo.csproj", "{C2A53CFD-105E-40AA-ABE7-512DEF3D6058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataAccessTPExpaceo", "TestBDDTPExpaceo\TestDataAccessTPExpaceo.csproj", "{10060B1D-2101-41DD-8495-1988F324864B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC676B88-E1AC-4255-AFC0-38E087052C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC676B88-E1AC-4255-AFC0-38E087052C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC676B88-E1AC-4255-AFC0-38E087052C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC676B88-E1AC-4255-AFC0-38E087052C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6A2C52-4238-407D-8074-183BFA123500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6A2C52-4238-407D-8074-183BFA123500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6A2C52-4238-407D-8074-183BFA123500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6A2C52-4238-407D-8074-183BFA123500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB583C4-F1B1-429D-A540-3F6DEC4FFED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB583C4-F1B1-429D-A540-3F6DEC4FFED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB583C4-F1B1-429D-A540-3F6DEC4FFED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB583C4-F1B1-429D-A540-3F6DEC4FFED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C0D011-BDF9-4D24-B84F-B68448DD6CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C0D011-BDF9-4D24-B84F-B68448DD6CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C0D011-BDF9-4D24-B84F-B68448DD6CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C0D011-BDF9-4D24-B84F-B68448DD6CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A53CFD-105E-40AA-ABE7-512DEF3D6058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A53CFD-105E-40AA-ABE7-512DEF3D6058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A53CFD-105E-40AA-ABE7-512DEF3D6058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A53CFD-105E-40AA-ABE7-512DEF3D6058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10060B1D-2101-41DD-8495-1988F324864B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10060B1D-2101-41DD-8495-1988F324864B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10060B1D-2101-41DD-8495-1988F324864B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10060B1D-2101-41DD-8495-1988F324864B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB245F3A-7CDD-4054-BC99-CB843501E212}
+	EndGlobalSection
+EndGlobal

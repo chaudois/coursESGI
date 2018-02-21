@@ -1,0 +1,14 @@
+{
+  "name": "testnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "damien",
+  "license": "ISC",
+  "dependencies": {
+    "scanf": "^0.7.3"
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.esgiexam.Controller">
+   <children>
+      <Button fx:id="btnCrypte" layoutX="38.0" layoutY="228.0" mnemonicParsing="false" onAction="#pressButtonCrypt" text="Crypter" />
+      <Button fx:id="btnUncrypte" layoutX="511.0" layoutY="228.0" mnemonicParsing="false" onAction="#pressButtonUncrypt" text="Decrypter" />
+      <TextArea fx:id="txtBox1" layoutX="95.0" layoutY="14.0" prefHeight="200.0" prefWidth="418.0" promptText="texte non crypé" />
+      <TextArea fx:id="txtBox2" layoutX="9.0" layoutY="261.0" prefHeight="331.0" prefWidth="781.0" promptText="texte crypté" />
+      <RadioButton fx:id="radio1" layoutX="581.0" layoutY="68.0" mnemonicParsing="false" onAction="#switchAlgo" selected="true" text="algo 1">
+         <toggleGroup>
+            <ToggleGroup fx:id="radioGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="radio2" layoutX="581.0" layoutY="114.0" mnemonicParsing="false" onAction="#switchAlgo" text="algo 2" toggleGroup="$radioGroup" />
+      <RadioButton fx:id="radio3" layoutX="581.0" layoutY="161.0" mnemonicParsing="false" onAction="#switchAlgo" text="algo 3" toggleGroup="$radioGroup" />
+      <TextArea fx:id="txtBoxDelta" layoutX="656.0" layoutY="58.0" prefHeight="17.0" prefWidth="101.0" promptText="delta" text="1" />
+      <Label layoutX="656.0" layoutY="41.0" text="Delta" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.damie.tpreceiver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!--class qui contient le receiver à linker avec l'action-->
+        <receiver
+
+            android:name=".MyReceiver"
+
+            android:enabled="true"
+            android:exported="true">
+            <!--déclaration d'une action-->
+            <intent-filter>
+                <!-- équivalent au code dans MainActivity.java mais dans ce cas, persistant après la coupure de l'appli -->
+                <!--<action android:name="android.intent.action.AIRPLANE_MODE"/>-->
+                <action android:name="MY_LITTLE_ACTION"/><!-- on creer une action custom qui n'appartient pas au system-->
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

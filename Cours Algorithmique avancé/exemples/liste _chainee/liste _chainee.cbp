@@ -44,6 +44,11 @@
 		</Unit>
 		<Unit filename="LinkedList.h" />
 		<Unit filename="LinkedListOperations.h" />
+		<Unit filename="Stack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Stack.h" />
+		<Unit filename="StackOperations.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

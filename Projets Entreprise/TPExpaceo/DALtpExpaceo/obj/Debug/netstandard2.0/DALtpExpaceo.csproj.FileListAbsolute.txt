@@ -1,0 +1,34 @@
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\DALtpExpaceo.deps.json
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\DALtpExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\MySql.Web.dll
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.csprojResolveAssemblyReference.cache
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.csproj.CoreCompileInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.AssemblyInfoInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.AssemblyInfo.cs
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets d'entreprise\TPExpaceo\DALtpExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\DALtpExpaceo.deps.json
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\DALtpExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\bin\Debug\netstandard2.0\MySql.Web.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.csprojResolveAssemblyReference.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.csproj.CoreCompileInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.AssemblyInfoInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.AssemblyInfo.cs
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\ressources\netstandard2.0\DALtpExpaceo.deps.json
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\ressources\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo\BLLTPExpaceo\ressources\netstandard2.0\DALtpExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\BLLTPExpaceo\ressources\netstandard2.0\DALtpExpaceo.deps.json
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\BLLTPExpaceo\ressources\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\BLLTPExpaceo\ressources\netstandard2.0\DALtpExpaceo.pdb
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.csprojResolveAssemblyReference.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.csproj.CoreCompileInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.AssemblyInfoInputs.cache
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.AssemblyInfo.cs
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.dll
+C:\Users\damie\Documents\Cours ESGI\Projets Entreprise\TPExpaceo - Copie (3)\DALtpExpaceo\obj\Debug\netstandard2.0\DALtpExpaceo.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="two">#e9ff40</color>
+    <color name="four">#ffec40</color>
+    <color name="eight">#ffc640</color>
+    <color name="sixteen">#ffa640</color>
+    <color name="thirtyTwo">#ff9340</color>
+    <color name="sixtyFour">#ff7c40</color>
+    <color name="hundredTwentyEight">#ff7040</color>
+    <color name="twoHundredFiftySix">#ff6040</color>
+    <color name="fiveHundredTwelve">#ff4040</color>
+    <color name="thousandTwentyFour">#ff4053</color>
+    <color name="twoThousandFortyEight">#ff406d</color>
+    <color name="white">#ffffff</color>
+</resources>

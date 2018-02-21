@@ -282,11 +282,12 @@ static void yy_fatal_error YY_PROTO(( yyconst char msg[] ));
 	*yy_cp = '\0'; \
 	yy_c_buf_p = yy_cp;
 
-#define YY_NUM_RULES 4
-#define YY_END_OF_BUFFER 5
-static yyconst short int yy_accept[11] =
+#define YY_NUM_RULES 2
+#define YY_END_OF_BUFFER 3
+static yyconst short int yy_accept[21] =
     {   0,
-        0,    0,    5,    4,    3,    2,    1,    1,    1,    0
+        0,    0,    3,    2,    2,    0,    1,    0,    1,    1,
+        0,    1,    1,    1,    1,    1,    0,    1,    1,    0
     } ;
 
 static yyconst int yy_ec[256] =
@@ -295,7 +296,7 @@ static yyconst int yy_ec[256] =
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    3,    1,    1,    1,    1,    4,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -303,8 +304,8 @@ static yyconst int yy_ec[256] =
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
 
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    3,    1,    1,    1,    1,    1,
-        1,    1,    1,    4,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -323,29 +324,37 @@ static yyconst int yy_ec[256] =
 
 static yyconst int yy_meta[5] =
     {   0,
-        1,    1,    1,    1
+        1,    2,    3,    4
     } ;
 
-static yyconst short int yy_base[11] =
+static yyconst short int yy_base[27] =
     {   0,
-        0,    4,    9,   10,   10,   10,   10,   10,   10,   10
+       28,   27,   30,   33,    0,    0,   25,    0,   24,    4,
+        0,    8,    0,    0,   24,   23,    0,    0,    0,   33,
+       12,   16,   20,   22,   18,    2
     } ;
 
-static yyconst short int yy_def[11] =
+static yyconst short int yy_def[27] =
     {   0,
-       10,   10,   10,   10,   10,   10,   10,   10,   10,    0
+       21,   21,   20,   20,   20,   22,   23,   24,   23,   20,
+       25,   20,   10,   26,    9,   10,    5,    9,   12,    0,
+       20,   20,   20,   20,   20,   20
     } ;
 
-static yyconst short int yy_nxt[15] =
+static yyconst short int yy_nxt[38] =
     {   0,
-        4,    5,    6,    4,    4,    7,    8,    9,   10,    3,
-       10,   10,   10,   10
+       20,   20,    6,    7,    9,   17,   12,   13,   15,    8,
+       15,   16,    4,    4,    4,    4,    8,    8,    8,    8,
+        9,   14,    9,    9,   11,   19,   18,   10,   10,   20,
+        5,    5,    3,   20,   20,   20,   20
     } ;
 
-static yyconst short int yy_chk[15] =
+static yyconst short int yy_chk[38] =
     {   0,
-        1,    1,    1,    1,    2,    2,    2,    2,    3,   10,
-       10,   10,   10,   10
+        0,    0,    5,    5,   10,   26,   10,   10,   12,   12,
+       12,   12,   21,   21,   21,   21,   22,   22,   22,   22,
+       23,   25,   23,   23,   24,   16,   15,    9,    7,    3,
+        2,    1,   20,   20,   20,   20,   20
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -361,11 +370,7 @@ static char *yy_last_accepting_cpos;
 char *yytext;
 #line 1 "mystere.l"
 #define INITIAL 0
-#line 2 "mystere.l"
-int charNumber=0;
-int wordNumber=1;
-int lineNumber=1;
-#line 369 "lex.yy.c"
+#line 374 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -508,9 +513,6 @@ YY_MALLOC_DECL
 #endif
 
 #define YY_RULE_SETUP \
-	if ( yyleng > 0 ) \
-		yy_current_buffer->yy_at_bol = \
-				(yytext[yyleng - 1] == '\n'); \
 	YY_USER_ACTION
 
 YY_DECL
@@ -519,9 +521,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 11 "mystere.l"
+#line 2 "mystere.l"
 
-#line 525 "lex.yy.c"
+#line 527 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -560,7 +562,6 @@ YY_DECL
 		yy_bp = yy_cp;
 
 		yy_current_state = yy_start;
-		yy_current_state += YY_AT_BOL();
 yy_match:
 		do
 			{
@@ -573,13 +574,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 11 )
+				if ( yy_current_state >= 21 )
 					yy_c = yy_meta[(unsigned int) yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 10 );
+		while ( yy_base[yy_current_state] != 33 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -607,32 +608,20 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 12 "mystere.l"
+#line 3 "mystere.l"
 {
-charNumber++;
-}
+
+char*retourReg=yytext;
+
+printf("\ncomment : %s",retourReg);
+} 
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 15 "mystere.l"
-{
-wordNumber++;	
-} 
-	YY_BREAK
-case 3:
-YY_RULE_SETUP
-#line 18 "mystere.l"
-{
-wordNumber++;
-lineNumber++;	
-}
-	YY_BREAK
-case 4:
-YY_RULE_SETUP
-#line 22 "mystere.l"
+#line 9 "mystere.l"
 ECHO;
 	YY_BREAK
-#line 636 "lex.yy.c"
+#line 625 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -912,7 +901,6 @@ static yy_state_type yy_get_previous_state()
 	register char *yy_cp;
 
 	yy_current_state = yy_start;
-	yy_current_state += YY_AT_BOL();
 
 	for ( yy_cp = yytext_ptr + YY_MORE_ADJ; yy_cp < yy_c_buf_p; ++yy_cp )
 		{
@@ -925,7 +913,7 @@ static yy_state_type yy_get_previous_state()
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 11 )
+			if ( yy_current_state >= 21 )
 				yy_c = yy_meta[(unsigned int) yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
@@ -960,11 +948,11 @@ yy_state_type yy_current_state;
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 11 )
+		if ( yy_current_state >= 21 )
 			yy_c = yy_meta[(unsigned int) yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
-	yy_is_jam = (yy_current_state == 10);
+	yy_is_jam = (yy_current_state == 20);
 
 	return yy_is_jam ? 0 : yy_current_state;
 	}
@@ -1083,7 +1071,6 @@ static int input()
 	*yy_c_buf_p = '\0';	/* preserve yytext */
 	yy_hold_char = *++yy_c_buf_p;
 
-	yy_current_buffer->yy_at_bol = (c == '\n');
 
 	return c;
 	}
@@ -1520,18 +1507,17 @@ int main()
 	return 0;
 	}
 #endif
-#line 22 "mystere.l"
+#line 9 "mystere.l"
 
 #include <stdio.h>
 #include <string.h>
 int main () {
 yyin = fopen("in.txt", "r") ;
 yylex() ;
-printf("\nnombre de carctere : %d",charNumber);
-printf("\nnombre de mot : %d",wordNumber);
-printf("\nnombre de ligne : %d",lineNumber);
 return 0;
 } 
 int yywrap(void) {
 return 1;
 }
+
+

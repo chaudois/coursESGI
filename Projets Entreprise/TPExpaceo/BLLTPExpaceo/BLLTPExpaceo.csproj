@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\WebApplication1\DataAccess</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DALtpExpaceo">
+      <HintPath>ressources\netstandard2.0\DALtpExpaceo.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\DALtpExpaceo\obj\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
